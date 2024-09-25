@@ -27,6 +27,7 @@ end
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
 
+# To print something other than "sunscreen," you can change the value of the weather variable to something else. 
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -46,6 +47,23 @@ num_quarters = 0
 puts "I have enough money for a gumball"
 puts "I don't have enough money for a gumball"
 
+num_quarters = 0
+
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
+
+# By changing the value of num_quarters, I can test both conditions.
+
+num_quarters = 2
+
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
 
 #####################
 # Using the variables defined below, write code that will tell you
@@ -63,3 +81,9 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
