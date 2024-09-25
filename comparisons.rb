@@ -69,20 +69,40 @@ puts "Is number_students less than or equal to 21", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
-#
+
+# This line of code is comparing whether the number 4 is less than the number 9 using the < (less than) operator.
+# Since 4 is indeed less than 9, this comparison will evaluate to true.
+# The puts method will then output the result (true) to the console.
+
+
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+
+# The variable 'books' is assigned the value 3.
+# The line 'puts 4 < books' is comparing whether 4 is less than the value stored in books (which is 3).
+# Since 4 is not less than 3, the comparison will evaluate to false.
+# The puts method will then output the result (false) to the console.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
 
+# The variable 'friends' is assigned the value 6, and 'siblings' is assigned the value 2.
+# The line 'puts friends > siblings' is comparing whether the number of friends (6) is greater than the number of siblings (2) using the > (greater than) operator.
+# Since 6 is indeed greater than 2, this comparison will evaluate to true.
+# The puts method will output the result (true) to the console.
+
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+
+# The variable 'attendees' is assigned the value 9, and 'meals' is assigned the value 8.
+# The line 'puts attendees != meals' is checking whether the number of 'attendees' (9) is not equal to the number of meals (8) using the != (not equal to) operator.
+# Since 9 is not equal to 8, this comparison will evaluate to true.
+# The puts method will output the result (true) to the console.
 
 
 #-------------------
