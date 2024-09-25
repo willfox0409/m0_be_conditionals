@@ -126,15 +126,23 @@ age = 1
 # YOU DO:
 # Determine if the dog loves to play and loves treats
 
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
 
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
 
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
 
+puts loves_to_play && age < 2
+
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+
+# The final line of code evaluated to true because the dog loves to play (loves_to_play = true) and the dog's age is less than 2 (age = 1), so the dog is considered a puppy. 
+# Both conditions are true, so the && operator results in true.
